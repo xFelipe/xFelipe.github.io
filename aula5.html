@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pten">
+<html lang="pt">
   <head>
     <meta charset="utf-8">
     <title>Testes</title>
@@ -14,31 +14,67 @@
       <fieldset>
         <legend>Grupo de pesquisas</legend>
       <h4>Você deseja trabalhar como webmaster?</h4>
-      <p><input type="radio" name="r1" value="T1" id="t1"><label for="t1">Teste 1</label></input></p>
-      <p><input type="radio" name="r1" value="T2" id="t2"><label for="t2">Teste 2</label></input></p>
-      <p><input type="radio" name="r1" value="T3" id="t3"><label for="t3">Teste 3</label></input></p>
-      <p><input type="radio" name="r1" value="T4" id="t4"><label for="t4">Teste 4</label></input></p>
+      <p><input type="radio" name="r1" value="T1" id="t1"><label for="t1">Teste 1</label></p>
+      <p><input type="radio" name="r1" value="T2" id="t2"><label for="t2">Teste 2</label></p>
+      <p><input type="radio" name="r1" value="T3" id="t3"><label for="t3">Teste 3</label></p>
+      <p><input type="radio" name="r1" value="T4" id="t4"><label for="t4">Teste 4</label></p>
 
       <h4>O que você deseja aprender?</h4>
-      <p><input type="checkbox" name="resposta" value="1" id="c1"><label for="c1">Opção 1</label></input></p>
-      <p><input type="checkbox" name="resposta" value="2" id="c2"><label for="c2">Opção 2</label></input></p>
-      <p><input type="checkbox" name="resposta" value="3" id="c3"><label for="c3">Opção 3</label></input></p>
-      <p><input type="checkbox" name="resposta" value="4" id="c4"><label for="c4">Opção 4</label></input></p>
+      <p><input type="checkbox" name="resposta" value="1" id="c1"><label for="c1">Opção 1</label></p>
+      <p><input type="checkbox" name="resposta" value="2" id="c2"><label for="c2">Opção 2</label></p>
+      <p><input type="checkbox" name="resposta" value="3" id="c3"><label for="c3">Opção 3</label></p>
+      <p><input type="checkbox" name="resposta" value="4" id="c4"><label for="c4">Opção 4</label></p>
       <select class="s1" name="s">
         <option value="op1">Opção 1</option>
         <option value="op2">Opção 2</option>
         <option value="op3">Opção 3</option>
         <option value="op4">Opção 4</option>
       </select>
-      </fieldset>
       <datalist id="country">
         <option value="Afghanistan">
         <option value="Albania">
         <option value="ANdorra">
         <option value="Angola">
       </datalist>
+      <p>
+        <select name="MenuSelect" size="10" multiple="multiple">
+          <optgroup label="s1">
+            <option value="s1e1">E1</option>
+            <option value="s1e2">E2</option>
+            <option value="s1e3">E3</option>
+            <option value="s1e4">E4</option>
+          </optgroup>
+          <optgroup label="s2">
+            <option value="s2e1">E1</option>
+            <option value="s2e2">E2</option>
+            <option value="s2e3" selected>E3</option>
+            <option value="s2e4">E4</option>
+          </optgroup>
+        </select>
+      </p>
+      <p><textarea name="text_teste" rows="10" cols="100"  maxlength="80" readonly>Valor default</textarea></p>
+      <p>
+        <input type="file" name="arquivo">
+      </p>
+
+      <p><input type="email" name="" value="" spellcheck=off ></p>
+      <p><input type="url" name="" value="" required></p>
+      <p><input type="text" name="" value="regex101.com" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"></p>
+      <p><input type="number" name="" value=""></p>
+      <p><input type="range" min=0 max=5 name="" value="1"></p>
+      <p><input type="date" name="" value=""></p>
+      <p><input type="month" name="" value=""></p>
+      <p><input type="week" name="" value=""></p>
+      <p><input type="time" name="" value=""></p>
+      <p><input type="datetime" name="" value=""></p>
+      <p><input type="search" name="" value=""></p>
+      <p><input type="color" name="" value=""></p>
+      <p><input type="image" name="" value=""></p>
+      <p><input type="tel" name="" value=""></p>
+
       <button type="submit">Enviar</button>
       <button type="reset">Reset</button>
+      </fieldset>
     </form>
   </body>
 </html>
