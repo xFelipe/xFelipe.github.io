@@ -1,0 +1,30 @@
+body{
+	background-color:white;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+	font-size: 35px;
+	font-family: sans-serif;
+	display:block;
+	max-height: 500px;
+	max-width: 300px;
+	background-color:#DDDDDD;
+	padding: 20px;
+	margin-bottom: 3px;
+}
+a:hover{
+	background-color: #eeeeee;
+}
+
+ul{
+	list-style-type: none;
+	margin: 1px;
+	padding: 1px;
+}
+li{
+padding: 2px;
+min-width: 300px;
+float:left;
+}
